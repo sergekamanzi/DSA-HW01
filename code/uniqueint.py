@@ -36,6 +36,7 @@ def uniqueint(inputFilePath):
             outputFile.write(str(integer) + '\n')
 
     print(f"Unique integers from '{inputFileName}' have been written to '{outputFilePath}'.")
+
 inputFilePath = r"C:\Users\HP\Desktop\ALU\dsa\hw01\sample_inputs\sample_02.txt"
 uniqueint(inputFilePath)
 # inputFilePath = input("Enter the full path of the input file: ")
